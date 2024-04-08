@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+        *{
+            background-color: #F7DC6F;
+            
+            padding: 10px;
+            
+        }
+        h1{
+
+            font-size: 50px;
+        }
+        h2{
+
+            font-size: 30px;
+        }
+
+        .productos{
+
+            padding-left: 10px;
+            padding-top: 10px;
+            text-align: justify;
+            display: flex;
+            
+        }
+        td{
+
+            border:  black 5px solid;
+        }
+        .contenido1{
+
+            align-items: center;
+        }
+        
+
+    </style>
+<body>
+    <header>
+        <h1>Jardin del Alma</h1>
+        <section class="enunciado">
+            <div class="sub">
+                <h2>Productos Disponibles</h2>
+            </div>
+        </section>
+        <section class="productos">
+            <table>
+                <tr>
+                    <td>
+                        <div class="contenido1">
+                            <h2>ROSA</h2>
+                            <p><strong>Rosa:</strong><em>La rosa es quizás una de las flores más reconocidas y populares en todo el mundo</em>Con sus pétalos suaves y delicados, la rosa viene en una amplia gama de colores, desde el clásico rojo pasión hasta el delicado rosa, el vibrante amarillo y el puro blanco. Además de su belleza visual, la rosa también es apreciada por su aroma dulce y distintivo. Se ha asociado durante mucho tiempo con el amor, la pasión y el romance, lo que la convierte en una opción popular para regalos románticos y ocasiones especiales como bodas y aniversarios.
+                            </p>
+                            <img  width="200px" height="200px" src="/images/rosa.jpg" alt="rosa">
+                            <br>
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/ArJk253r1C4?si=K14PNd8eZ_REKl78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="contenido2">
+                            <h2>LIRIO</h2>
+                            <P><strong>Lirio:</strong><em>El lirio es una flor elegante y majestuosa que se destaca por sus tallos altos y sus flores grandes y llamativas.</em> Con sus pétalos acampanados y sus colores vibrantes, como el blanco puro, el rosa suave y el amarillo brillante, el lirio agrega un toque de gracia y sofisticación a cualquier arreglo floral. Además de su belleza estética, el lirio también tiene un aroma distintivo y encantador. Se asocia comúnmente con la pureza, la inocencia y la renovación, lo que lo convierte en una opción popular para celebrar ocasiones como nacimientos, bautizos y bodas.</P>
+                            <img width="200px" height="200px" src="/images/lirio.jpg" alt="lorio">
+                            <br>
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/8imVETdCY0Y?si=OTDT9yArQi6_tPGP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="contenido3">
+                            <h2>TULIPÁN</h2>
+                            <p><strong>Tulipán:</strong> <em>El tulipán es una flor primaveral encantadora conocida por su forma única y sus brillantes colores. </em>Con sus tallos delgados y sus pétalos en forma de copa, el tulipán viene en una amplia variedad de tonos, desde el rojo intenso y el amarillo brillante hasta el morado profundo y el blanco puro. Esta diversidad de colores y formas hace que los tulipanes sean una opción versátil para arreglos florales y decoraciones. Además de su belleza visual, el tulipán también es apreciado por su elegancia simple y su simbolismo de amor y felicidad, lo que lo convierte en una opción popular para una amplia gama de ocasiones, desde cumpleaños y aniversarios hasta eventos formales y celebraciones de primavera.</p>
+                            <img width="200px" height="200px" src="/images/tulipan.jpg" alt="tulipan">
+                            <br>
+                            <iframe width="300" height="215" src="https://www.youtube.com/embed/zZAZojisRvs?si=3alCze0V_npfow75" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </td>
+                    
+                </tr>
+            </table>
+        </section>
+        <section class="registro">
+            <form action="">
+                <ul>
+                    <li>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="name" name="username">
+                        <label for="datetime">Fecha de compra</label>
+                        <input type="date" id="fecha" name = "date">
+                        <label for="Elija">Elija la flor</label>
+                        <select name="flores" id="flores">
+                            <option value="Rosa">Rosa</option>
+                            <option value="Lirio">Lirio</option>
+                            <option value="Tulipán">Tulipán</option>
+                        </select>
+                        <button>enviar</button>
+                    </li>
+                </ul>
+                
+        </section>
+        
+    </header>
+</body>
+</html>
